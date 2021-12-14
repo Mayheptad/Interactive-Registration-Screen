@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Interactive-Registration-Screen/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Interactive-Registration-Screen/static/js/main.fa0868f9.chunk.js",
+    "main.js.map": "/Interactive-Registration-Screen/static/js/main.fa0868f9.chunk.js.map",
+    "runtime-main.js": "/Interactive-Registration-Screen/static/js/runtime-main.f922c8cd.js",
+    "runtime-main.js.map": "/Interactive-Registration-Screen/static/js/runtime-main.f922c8cd.js.map",
+    "static/js/2.5820d770.chunk.js": "/Interactive-Registration-Screen/static/js/2.5820d770.chunk.js",
+    "static/js/2.5820d770.chunk.js.map": "/Interactive-Registration-Screen/static/js/2.5820d770.chunk.js.map",
+    "static/js/3.48455dfb.chunk.js": "/Interactive-Registration-Screen/static/js/3.48455dfb.chunk.js",
+    "static/js/3.48455dfb.chunk.js.map": "/Interactive-Registration-Screen/static/js/3.48455dfb.chunk.js.map",
+    "index.html": "/Interactive-Registration-Screen/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Interactive-Registration-Screen/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.5820d770.chunk.js.LICENSE.txt": "/Interactive-Registration-Screen/static/js/2.5820d770.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f922c8cd.js",
+    "static/js/2.5820d770.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.fa0868f9.chunk.js"
+  ]
+}
