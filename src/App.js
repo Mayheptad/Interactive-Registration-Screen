@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Login from './Components/Login';
+import React, { useState } from "react";
 
 function App() {
+
+const [userDetails, setUserDetails] = useState({
+fName: "", lName: "", email: ""
+  });
+
+  function handleChange(evt) {
+     evt.preventDefault();
+    const { name, value } = evt.target;
+setUserDetails( prevValue => ({ ...prevValue, [name]: value }));
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div className="container">
+<h1>  Hello {userDetails.fName} {userDetails.lName} </h1>
+        <p>{userDetails.email}</p>
+  <Login handleChange={handleChange}/>
     </div>
   );
+
 }
 
 export default App;
